@@ -33,12 +33,6 @@ double evaluatePrefix(string exprsn)
         else
         {
 
-            // Pop two elements from Stack 
-            double o1 = Stack.top();
-            Stack.pop();
-            double o2 = Stack.top();
-            Stack.pop();
-
             // Use switch case to operate on o1 
             // and o2 and perform o1 O o2. 
             switch (exprsn[j])
