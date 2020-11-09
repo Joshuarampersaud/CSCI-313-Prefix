@@ -6,6 +6,13 @@
 
 using namespace std;
 
+struct Position {
+    Position() = default;
+    Position(unsigned row_arg, unsigned col_arg);
+    unsigned row {1}, col {1};
+};
+
+
 void printMaze(char maze[][16]);
 
 void printMaze(char maze[][16]) {
