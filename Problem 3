@@ -73,13 +73,6 @@ if (!temp)
     top = temp;  
 }  
   
-// Utility function to check if the stack is empty or not
-
-int isEmpty()  
-{  
-    return top == NULL;  
-}  
-  
 // Utility function to return top element in a stack  
 int peek()  
 {  
